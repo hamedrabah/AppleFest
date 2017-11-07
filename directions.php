@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
-  <title>Apple Fest</title>
+  <?php
+  include("includes/head.php"); ?>
 </head>
 <body class="index">
   <div id="backgrounddirections"></div>
@@ -24,14 +22,8 @@
                 </div>
               </div>
 
-              <nav class="nav"> <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="guide.html">Guide</a></li>
-                <li><a href="directions.html" class="active">Directions</a> </li>
-                <li><a href="gallery.html">Gallery</a> </li>
-              </ul>
-            </nav>
+              <?php
+              include("includes/navigation.php"); ?>
           </div>
 
         </body>
